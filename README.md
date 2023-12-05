@@ -22,7 +22,7 @@ The University Apache server, PHP with PDO enabled for PostgreSQL (uncomment ext
 2. Spaceship Images - https://www.opengameart.org
 3. Audio/SFX - https://www.opengameart.org
 4. Player Death Sound - Sound Effect from - https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=90398
-5. PHP Files Provided in Practicals for database connections.
+5. PHP Files Provided in Practicals for database connections. (Aberystwyth University)
 6. Canvas Background - https://www.freepik.com
 7. Custom Fonts - https://fonts.google.com/
 
