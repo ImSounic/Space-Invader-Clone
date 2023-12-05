@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Space Shooter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="leaderboards.html">Leaderboards</a>
+</div>
+<h1 id ="title">Space Shooter</h1>
+<p id="response"></p>
+<p class="description" id="description">
+    Enter your name to start the game:
+</p>
+<input type="text" id="nameInput" placeholder="Enter your name">
+<br>
+<button id="startButton" onclick="startGame()">Start Game</button>
+
+<p id="score"><span>Score:</span> <span id="scoreElement">0</span></p>
+
+<div id="livesContainer">
+    <!-- Heart images for representing lives -->
+    <img id="heart1" src="./img/heart.png">
+    <img id="heart2" src="./img/heart.png">
+    <img id="heart3" src="./img/heart.png">
+</div>
+
+<!-- Game Over Modal -->
+<div id="gameOver">
+    <h1 style="font-size: 16px; color: grey; margin-top: 0; margin-bottom: 0;">Game Over</h1>
+    <h1 id="finalScore" style="font-size: 48px; color: black; margin-bottom: 0; margin-top: 0;">0</h1>
+    <p style="font-size: 14px; margin: 0; color: grey;">Points</p>
+    <button id="restartButton">Restart Game</button>
+    <a href="leaderboards.html"><button id="leaderboardButton">Leaderboards</button></a>
+</div>
+
+
+<!-- Canvas for the game -->
+<canvas id="gameCanvas">
+
+</canvas>
+<script src="script.js"></script>
+<script src="leaderboard.js"></script>
+</body>
+
+</html>

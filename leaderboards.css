@@ -1,0 +1,69 @@
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("./img/spacebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #011888;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+table{
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+tr{
+    padding: 10px;
+}
